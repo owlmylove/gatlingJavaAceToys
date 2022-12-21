@@ -3,6 +3,7 @@ package acetoys.pageobjects;
 import io.gatling.javaapi.core.ChainBuilder;
 import io.gatling.javaapi.core.FeederBuilder;
 
+import static acetoys.session.UserSession.increaseItemsinBascketForSession;
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
@@ -20,10 +21,11 @@ public class Product {
             );
 
     public static ChainBuilder addProductCart =
-            exec(
+            exec(increaseItemsinBascketForSession)
+                    . exec(
                     http("Add Cart #{id}")
                             .get("/cart/add/#{id}")
-                           // .check(substring("You have <span>1</span> products in your Basket"))
+                            .check(substring("You have <span>#{itemsInBascket}</span> products in your Basket"))
             );
 
 }
