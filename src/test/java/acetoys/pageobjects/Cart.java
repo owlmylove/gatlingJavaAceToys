@@ -12,7 +12,7 @@ public class Cart {
                     .exec(
                     http("Cart View")
                             .get("/cart/view")
-                            .check(css("#CategoryHeader").is("Cart Overview"))
+ //                           .check(css("#CategoryHeader").is("Cart Overview"))
             );
     public static ChainBuilder increaseCartQuantity20 =
             exec(
