@@ -1,0 +1,37 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671724328396	test	3.8.4
+USER	AceToysSimulation	START	1671724329472
+REQUEST		Home Page	1671724329470	1671724329656	OK	 
+REQUEST		Our Story Page	1671724331766	1671724331826	OK	 
+REQUEST		Get in Touch Page	1671724333836	1671724333901	OK	 
+REQUEST		All Products	1671724335919	1671724336049	OK	 
+REQUEST		Babies Toys	1671724338070	1671724338180	OK	 
+REQUEST		Kids Toys	1671724340192	1671724340299	OK	 
+REQUEST		Grown-ups Toys	1671724342308	1671724342417	OK	 
+REQUEST		Load Products Details Page - Product: Doctors Play Kit	1671724346437	1671724346494	OK	 
+REQUEST		Add Cart 6	1671724348501	1671724348563	OK	 
+REQUEST		Add Cart 6	1671724350567	1671724350633	OK	 
+REQUEST		Add Cart 6	1671724352637	1671724352700	OK	 
+REQUEST		Login	1671724354709	1671724354780	OK	 
+REQUEST		Login Redirect 1	1671724354785	1671724354894	OK	 
+REQUEST		Cart View	1671724354898	1671724354954	OK	 
+REQUEST		Cart View Redirect 1	1671724354955	1671724355039	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit	1671724357044	1671724357099	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724357099	1671724357155	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 2	1671724357156	1671724357217	KO	css((grandTotal,None)).find.is($151.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit	1671724359223	1671724359287	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724359288	1671724359361	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 2	1671724359362	1671724359420	KO	css((grandTotal,None)).find.is($189.95000000000002), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit	1671724361425	1671724361487	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724361488	1671724361543	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 2	1671724361544	1671724361603	KO	css((grandTotal,None)).find.is($227.94000000000003), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit	1671724363608	1671724363666	OK	 
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724363667	1671724363728	KO	css((grandTotal,None)).find.is($151.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit	1671724365733	1671724365788	OK	 
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724365789	1671724365853	KO	css((grandTotal,None)).find.is($75.97999999999999), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit	1671724367858	1671724367923	OK	 
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724367924	1671724368007	KO	css((grandTotal,None)).find.is($-1.4210854715202004E-14), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit	1671724370013	1671724370069	OK	 
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit Redirect 1	1671724370070	1671724370160	KO	css((grandTotal,None)).find.is($-75.98000000000002), but actually found nothing
+REQUEST		Checkout	1671724372164	1671724372227	OK	 
+REQUEST		Checkout Redirect 1	1671724372228	1671724372287	OK	 
+USER	AceToysSimulation	END	1671724374297

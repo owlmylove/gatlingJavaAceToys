@@ -1,0 +1,31 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671723903763	test	3.8.4
+USER	AceToysSimulation	START	1671723905170
+REQUEST		Home Page	1671723905167	1671723905433	OK	 
+REQUEST		Our Story Page	1671723907541	1671723907629	OK	 
+REQUEST		Get in Touch Page	1671723909638	1671723909732	OK	 
+REQUEST		All Products	1671723911751	1671723911902	OK	 
+REQUEST		Babies Toys	1671723913922	1671723914086	OK	 
+REQUEST		Kids Toys	1671723916097	1671723916381	OK	 
+REQUEST		Grown-ups Toys	1671723918391	1671723918556	OK	 
+REQUEST		Load Products Details Page - Product: Poker Set	1671723922576	1671723922662	OK	 
+REQUEST		Add Cart 22	1671723924668	1671723924732	OK	 
+REQUEST		Add Cart 22	1671723926736	1671723926856	OK	 
+REQUEST		Add Cart 22	1671723928859	1671723928920	OK	 
+REQUEST		Login	1671723930931	1671723931044	OK	 
+REQUEST		Login Redirect 1	1671723931050	1671723931108	OK	 
+REQUEST		Cart View	1671723931112	1671723931166	OK	 
+REQUEST		Cart View Redirect 1	1671723931167	1671723931242	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set	1671723933248	1671723933304	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 1	1671723933305	1671723933359	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 2	1671723933359	1671723933420	KO	css((grandTotal,None)).find.is($255.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Poker Set	1671723935426	1671723935489	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 1	1671723935490	1671723935550	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 2	1671723935550	1671723935655	KO	css((grandTotal,None)).find.is($319.95), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Poker Set	1671723937661	1671723937716	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 1	1671723937717	1671723937794	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 2	1671723937795	1671723937913	KO	css((grandTotal,None)).find.is($383.94), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Poker Set	1671723939918	1671723939977	OK	 
+REQUEST		Decrease Product Quantity in Cart - Poker Set Redirect 1	1671723939978	1671723940074	KO	css((grandTotal,None)).find.is($255.95999999999998), but actually found nothing
+REQUEST		Checkout	1671723942079	1671723942146	OK	 
+REQUEST		Checkout Redirect 1	1671723942147	1671723942223	OK	 
+USER	AceToysSimulation	END	1671723944233

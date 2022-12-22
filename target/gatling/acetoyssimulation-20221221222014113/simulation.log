@@ -1,0 +1,34 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671661214113	test	3.8.4
+USER	AceToysSimulation	START	1671661215491
+REQUEST		Home Page	1671661215489	1671661215649	OK	 
+REQUEST		Our Story Page	1671661217754	1671661217807	OK	 
+REQUEST		Get in Touch Page	1671661219816	1671661220065	OK	 
+REQUEST		All Products	1671661222081	1671661222193	OK	 
+REQUEST		Babies Toys	1671661224212	1671661224325	OK	 
+REQUEST		Kids Toys	1671661226336	1671661226658	OK	 
+REQUEST		Grown-ups Toys	1671661228667	1671661228766	OK	 
+REQUEST		Load Products Details Page - Product: Rubicks Cube	1671661232790	1671661232850	OK	 
+REQUEST		Add Cart 14	1671661234856	1671661234908	KO	Check extractor resolution crashed: No attribute named 'itemsInBascket' is defined
+REQUEST		Add Cart 14	1671661236914	1671661236972	KO	Check extractor resolution crashed: No attribute named 'itemsInBascket' is defined
+REQUEST		Add Cart 14	1671661238976	1671661239039	KO	Check extractor resolution crashed: No attribute named 'itemsInBascket' is defined
+REQUEST		Login	1671661241049	1671661241101	OK	 
+REQUEST		Login Redirect 1	1671661241105	1671661241157	OK	 
+REQUEST		Cart View	1671661241161	1671661241209	OK	 
+REQUEST		Cart View Redirect 1	1671661241210	1671661241266	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube	1671661243271	1671661243322	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 1	1671661243323	1671661243372	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 2	1671661243373	1671661243425	KO	css((grandTotal,None)).find.is(basketTotal), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube	1671661245431	1671661245489	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 1	1671661245490	1671661245540	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 2	1671661245541	1671661245595	KO	css((grandTotal,None)).find.is(basketTotal), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube	1671661247600	1671661247656	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 1	1671661247657	1671661247706	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 2	1671661247707	1671661247765	KO	css((grandTotal,None)).find.is(basketTotal), but actually found nothing
+REQUEST		Subtract Cart 20	1671661249768	1671661249837	KO	status.find.in([200, 209], 304), found 500
+REQUEST		Cart View	1671661249838	1671661249985	OK	 
+REQUEST		Cart View Redirect 1	1671661249986	1671661250036	OK	 
+REQUEST		Checkout	1671661254044	1671661254091	OK	 
+REQUEST		Checkout Redirect 1	1671661254092	1671661254144	OK	 
+REQUEST		Logout	1671661256150	1671661256197	OK	 
+REQUEST		Logout Redirect 1	1671661256198	1671661256249	OK	 
+USER	AceToysSimulation	END	1671661256256

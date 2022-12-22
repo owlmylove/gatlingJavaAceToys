@@ -1,0 +1,37 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671725055629	test	3.8.4
+USER	AceToysSimulation	START	1671725057002
+REQUEST		Home Page	1671725056999	1671725057329	OK	 
+REQUEST		Our Story Page	1671725059460	1671725059533	OK	 
+REQUEST		Get in Touch Page	1671725061543	1671725061643	OK	 
+REQUEST		All Products	1671725063659	1671725063841	OK	 
+REQUEST		Babies Toys	1671725065861	1671725065979	OK	 
+REQUEST		Kids Toys	1671725067988	1671725068093	OK	 
+REQUEST		Grown-ups Toys	1671725070099	1671725070219	OK	 
+REQUEST		Load Products Details Page - Product: Rubicks Cube	1671725074243	1671725074306	OK	 
+REQUEST		Add Cart 14	1671725076312	1671725076370	OK	 
+REQUEST		Add Cart 14	1671725078376	1671725078453	OK	 
+REQUEST		Add Cart 14	1671725080457	1671725080521	OK	 
+REQUEST		Login	1671725082531	1671725082611	OK	 
+REQUEST		Login Redirect 1	1671725082617	1671725082675	OK	 
+REQUEST		Cart View	1671725082679	1671725082733	OK	 
+REQUEST		Cart View Redirect 1	1671725082733	1671725082793	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube	1671725084797	1671725084877	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 1	1671725084877	1671725084975	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 2	1671725084976	1671725085036	KO	css((#grandTotal,None)).find.is($75.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube	1671725087042	1671725087096	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 1	1671725087097	1671725087153	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 2	1671725087154	1671725087213	KO	css((#grandTotal,None)).find.is($94.94999999999999), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube	1671725089216	1671725089279	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 1	1671725089280	1671725089337	OK	 
+REQUEST		Increase Product Quantity in Cart - Rubicks Cube Redirect 2	1671725089338	1671725089397	KO	css((#grandTotal,None)).find.is($113.93999999999998), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube	1671725091400	1671725091467	OK	 
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube Redirect 1	1671725091468	1671725091525	KO	css((#grandTotal,None)).find.is($75.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube	1671725093530	1671725093590	OK	 
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube Redirect 1	1671725093591	1671725093649	KO	css((#grandTotal,None)).find.is($37.980000000000004), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube	1671725095654	1671725095715	OK	 
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube Redirect 1	1671725095717	1671725095777	KO	css((#grandTotal,None)).find.is($7.105427357601002E-15), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube	1671725097783	1671725097837	OK	 
+REQUEST		Decrease Product Quantity in Cart - Rubicks Cube Redirect 1	1671725097838	1671725097894	KO	css((#grandTotal,None)).find.is($-37.97999999999999), but actually found nothing
+REQUEST		Checkout	1671725099897	1671725099957	OK	 
+REQUEST		Checkout Redirect 1	1671725099958	1671725100015	OK	 
+USER	AceToysSimulation	END	1671725102024

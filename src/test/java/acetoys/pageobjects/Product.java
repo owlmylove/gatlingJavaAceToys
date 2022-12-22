@@ -3,7 +3,7 @@ package acetoys.pageobjects;
 import io.gatling.javaapi.core.ChainBuilder;
 import io.gatling.javaapi.core.FeederBuilder;
 
-import static acetoys.session.UserSession.increaseItemsinBascketForSession;
+import static acetoys.session.UserSession.*;
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
@@ -20,12 +20,13 @@ public class Product {
                             .check(css("#ProductDescription").isEL("#{description}"))
             );
 
-    public static ChainBuilder addProductCart =
-            exec(increaseItemsinBascketForSession)
-                    . exec(
+    public static ChainBuilder addProductToCart =
+            exec(increaseItemsInBasketForSession)
+                    .exec(increaseSessionBasketTotal)
+                    .exec(
                     http("Add Cart #{id}")
                             .get("/cart/add/#{id}")
-                            .check(substring("You have <span>#{itemsInBascket}</span> products in your Basket"))
+                            .check(substring("You have <span>#{itemsInBasket}</span> products in your Basket"))
             );
 
 }

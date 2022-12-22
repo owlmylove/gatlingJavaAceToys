@@ -1,0 +1,32 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671661558381	r	3.8.4
+USER	AceToysSimulation	START	1671661559599
+REQUEST		Home Page	1671661559597	1671661559767	OK	 
+REQUEST		Our Story Page	1671661561889	1671661561951	OK	 
+REQUEST		Get in Touch Page	1671661563959	1671661564024	OK	 
+REQUEST		All Products	1671661566036	1671661566138	OK	 
+REQUEST		Babies Toys	1671661568154	1671661568268	OK	 
+REQUEST		Kids Toys	1671661570278	1671661570381	OK	 
+REQUEST		Grown-ups Toys	1671661572389	1671661572491	OK	 
+REQUEST		Load Products Details Page - Product: Rabbit Model	1671661576511	1671661576818	OK	 
+REQUEST		Add Cart 9	1671661578824	1671661578883	KO	Check extractor resolution crashed: No attribute named 'itemsInBascket' is defined
+REQUEST		Add Cart 9	1671661580888	1671661580944	KO	Check extractor resolution crashed: No attribute named 'itemsInBascket' is defined
+REQUEST		Add Cart 9	1671661582947	1671661583004	KO	Check extractor resolution crashed: No attribute named 'itemsInBascket' is defined
+REQUEST		Login	1671661585014	1671661585069	OK	 
+REQUEST		Login Redirect 1	1671661585075	1671661585129	OK	 
+REQUEST		Cart View	1671661585132	1671661585180	OK	 
+REQUEST		Cart View Redirect 1	1671661585181	1671661585234	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model	1671661587241	1671661587289	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model Redirect 1	1671661587290	1671661587337	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model Redirect 2	1671661587337	1671661587386	KO	css((grandTotal,None)).find.is($79.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Rabbit Model	1671661589392	1671661589440	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model Redirect 1	1671661589440	1671661589488	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model Redirect 2	1671661589489	1671661589541	KO	css((grandTotal,None)).find.is($99.94999999999999), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Rabbit Model	1671661591545	1671661591605	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model Redirect 1	1671661591606	1671661591663	OK	 
+REQUEST		Increase Product Quantity in Cart - Rabbit Model Redirect 2	1671661591664	1671661591724	KO	css((grandTotal,None)).find.is($119.93999999999998), but actually found nothing
+REQUEST		Subtract Cart 20	1671661593729	1671661593801	KO	status.find.in([200, 209], 304), found 500
+REQUEST		Cart View	1671661593803	1671661593972	OK	 
+REQUEST		Cart View Redirect 1	1671661593973	1671661594029	OK	 
+REQUEST		Checkout	1671661598034	1671661598088	OK	 
+REQUEST		Checkout Redirect 1	1671661598089	1671661598138	OK	 
+USER	AceToysSimulation	END	1671661600149
