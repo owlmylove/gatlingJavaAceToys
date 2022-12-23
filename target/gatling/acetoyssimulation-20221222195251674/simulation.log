@@ -1,0 +1,35 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671738771674	test	3.8.4
+USER	AceToysSimulation	START	1671738772894
+REQUEST		Home Page	1671738772891	1671738773052	OK	 
+REQUEST		Our Story Page	1671738775188	1671738775247	OK	 
+REQUEST		Get in Touch Page	1671738777255	1671738777305	OK	 
+REQUEST		All Products	1671738779325	1671738779429	OK	 
+REQUEST		Babies Toys	1671738781446	1671738781543	OK	 
+REQUEST		Kids Toys	1671738783555	1671738783652	OK	 
+REQUEST		Grown-ups Toys	1671738785661	1671738785765	OK	 
+REQUEST		Load Products Details Page - Product: Train Toy	1671738789784	1671738789836	OK	 
+REQUEST		Add Cart 20	1671738791843	1671738791900	OK	 
+REQUEST		Add Cart 20	1671738793905	1671738793954	OK	 
+REQUEST		Add Cart 20	1671738795958	1671738796008	OK	 
+REQUEST		Login	1671738798019	1671738798069	OK	 
+REQUEST		Login Redirect 1	1671738798075	1671738798129	OK	 
+REQUEST		Cart View	1671738798135	1671738798183	OK	 
+REQUEST		Cart View Redirect 1	1671738798184	1671738798233	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy	1671738800239	1671738800295	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy Redirect 1	1671738800296	1671738800344	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy Redirect 2	1671738800345	1671738800395	KO	css((#grandTotal,None)).find.is($75.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Train Toy	1671738802401	1671738802452	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy Redirect 1	1671738802453	1671738802500	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy Redirect 2	1671738802501	1671738802551	KO	css((#grandTotal,None)).find.is($94.94999999999999), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Train Toy	1671738804556	1671738804605	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy Redirect 1	1671738804606	1671738804653	OK	 
+REQUEST		Increase Product Quantity in Cart - Train Toy Redirect 2	1671738804654	1671738804704	KO	css((#grandTotal,None)).find.is($113.93999999999998), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Train Toy	1671738806709	1671738806757	OK	 
+REQUEST		Decrease Product Quantity in Cart - Train Toy Redirect 1	1671738806758	1671738806811	KO	css((#grandTotal,None)).find.is($75.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Train Toy	1671738808816	1671738808865	OK	 
+REQUEST		Decrease Product Quantity in Cart - Train Toy Redirect 1	1671738808866	1671738808915	KO	css((#grandTotal,None)).find.is($37.980000000000004), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Train Toy	1671738810921	1671738810970	OK	 
+REQUEST		Decrease Product Quantity in Cart - Train Toy Redirect 1	1671738810971	1671738811022	KO	css((#grandTotal,None)).find.is($7.105427357601002E-15), but actually found nothing
+REQUEST		Checkout	1671738813027	1671738813076	OK	 
+REQUEST		Checkout Redirect 1	1671738813077	1671738813126	OK	 
+USER	AceToysSimulation	END	1671738815137

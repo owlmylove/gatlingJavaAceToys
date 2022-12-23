@@ -1,0 +1,26 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671758798710	 	3.8.4
+USER	AceToysSimulation	START	1671758799707
+REQUEST		Home Page	1671758799705	1671758799867	OK	 
+REQUEST		Our Story Page	1671758801970	1671758802037	OK	 
+REQUEST		Get in Touch Page	1671758804045	1671758804097	OK	 
+REQUEST		All Products	1671758806111	1671758806224	OK	 
+REQUEST		Load page 0 of Products - Category: All Products	1671758808256	1671758808360	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671758808371	1671758808423	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671758808430	1671758808482	OK	 
+REQUEST		Load Products Details Page - Product: Assorted Building Blocks	1671758810490	1671758810548	OK	 
+REQUEST		Add Cart Assorted Building Blocks	1671758812556	1671758812616	OK	 
+REQUEST		Login User	1671758814630	1671758814912	OK	 
+REQUEST		Login User Redirect 1	1671758814919	1671758814975	OK	 
+REQUEST		Cart View	1671758814981	1671758815029	OK	 
+REQUEST		Cart View Redirect 1	1671758815030	1671758815080	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks	1671758817086	1671758817141	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 1	1671758817142	1671758817191	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 2	1671758817192	1671758817244	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks	1671758819250	1671758819307	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 1	1671758819308	1671758819355	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 2	1671758819356	1671758819406	OK	 
+REQUEST		Decrease Product Quantity in Cart - Assorted Building Blocks	1671758821413	1671758821461	OK	 
+REQUEST		Decrease Product Quantity in Cart - Assorted Building Blocks Redirect 1	1671758821462	1671758821512	OK	 
+REQUEST		Checkout	1671758823517	1671758823565	OK	 
+REQUEST		Checkout Redirect 1	1671758823566	1671758823614	OK	 
+USER	AceToysSimulation	END	1671758825623

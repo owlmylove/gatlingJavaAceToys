@@ -2,7 +2,6 @@ package acetoys.pageobjects;
 
 import io.gatling.javaapi.core.ChainBuilder;
 import io.gatling.javaapi.core.FeederBuilder;
-import net.sf.saxon.om.Chain;
 
 import java.util.Map;
 
@@ -35,7 +34,7 @@ public class Category {
             })
                     .asLongAs("#{morePages}").on(
                             exec(http("Load page #{currentPageNumber} of Products - Category: #{categoryName}")
-                                    .get("category/#{categoryPath}?page=#{currentPageNumber}")
+                                    .get("/category/#{categoryPath}?page=#{currentPageNumber}")
                                     .check(css(".page-item.active").isEL("#{nextPageNumber}")))
                                     .exec(session -> {
                                         int currentPageNumber = session.getInt("currentPageNumber");

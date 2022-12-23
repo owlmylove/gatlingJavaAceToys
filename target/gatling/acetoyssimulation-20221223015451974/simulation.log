@@ -1,0 +1,26 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671760491974	 	3.8.4
+USER	AceToysSimulation	START	1671760493245
+REQUEST		Home Page	1671760493243	1671760493405	OK	 
+REQUEST		Our Story Page	1671760495511	1671760495565	OK	 
+REQUEST		Get in Touch Page	1671760497574	1671760497626	OK	 
+REQUEST		All Products	1671760499644	1671760499747	OK	 
+REQUEST		Load page 0 of Products - Category: All Products	1671760501772	1671760501867	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671760501878	1671760501928	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671760501935	1671760501990	OK	 
+REQUEST		Load Products Details Page - Product: Doctors Play Kit	1671760503998	1671760504052	OK	 
+REQUEST		Add Cart Doctors Play Kit	1671760506058	1671760506107	OK	 
+REQUEST		Login User	1671760508119	1671760508173	OK	 
+REQUEST		Login User Redirect 1	1671760508180	1671760508228	OK	 
+REQUEST		Cart View	1671760508231	1671760508276	OK	 
+REQUEST		Cart View Redirect 1	1671760508277	1671760508330	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit	1671760510336	1671760510390	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 1	1671760510391	1671760510436	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 2	1671760510436	1671760510488	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit	1671760512493	1671760512546	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 1	1671760512547	1671760512592	OK	 
+REQUEST		Increase Product Quantity in Cart - Doctors Play Kit Redirect 2	1671760512593	1671760512641	OK	 
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit	1671760514647	1671760514701	OK	 
+REQUEST		Decrease Product Quantity in Cart - Doctors Play Kit Redirect 1	1671760514702	1671760514750	OK	 
+REQUEST		Checkout	1671760516756	1671760516808	OK	 
+REQUEST		Checkout Redirect 1	1671760516810	1671760516857	OK	 
+USER	AceToysSimulation	END	1671760518868

@@ -1,0 +1,35 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671740972477	test	3.8.4
+USER	AceToysSimulation	START	1671740973723
+REQUEST		Home Page	1671740973721	1671740973876	OK	 
+REQUEST		Our Story Page	1671740975990	1671740976040	OK	 
+REQUEST		Get in Touch Page	1671740978048	1671740978105	OK	 
+REQUEST		All Products	1671740980118	1671740980404	OK	 
+REQUEST		Babies Toys	1671740982425	1671740982518	OK	 
+REQUEST		Kids Toys	1671740984526	1671740984812	OK	 
+REQUEST		Grown-ups Toys	1671740986821	1671740986912	OK	 
+REQUEST		Load Products Details Page - Product: Vintage Minature Car	1671740990937	1671740990987	OK	 
+REQUEST		Add Cart Vintage Minature Car	1671740992993	1671740993050	OK	 
+REQUEST		Add Cart Vintage Minature Car	1671740995054	1671740995102	OK	 
+REQUEST		Add Cart Vintage Minature Car	1671740997106	1671740997160	OK	 
+REQUEST		Login User	1671740999168	1671740999217	OK	 
+REQUEST		Login User Redirect 1	1671740999221	1671740999267	OK	 
+REQUEST		Cart View	1671740999269	1671740999313	OK	 
+REQUEST		Cart View Redirect 1	1671740999314	1671740999367	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car	1671741001372	1671741001426	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car Redirect 1	1671741001427	1671741001473	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car Redirect 2	1671741001474	1671741001523	KO	css((#grandTotal,None)).find.is($99.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car	1671741003531	1671741003585	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car Redirect 1	1671741003586	1671741003632	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car Redirect 2	1671741003633	1671741003684	KO	css((#grandTotal,None)).find.is($124.95), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car	1671741005689	1671741005743	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car Redirect 1	1671741005743	1671741005788	OK	 
+REQUEST		Increase Product Quantity in Cart - Vintage Minature Car Redirect 2	1671741005789	1671741005837	KO	css((#grandTotal,None)).find.is($149.94), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Vintage Minature Car	1671741007858	1671741007910	OK	 
+REQUEST		Decrease Product Quantity in Cart - Vintage Minature Car Redirect 1	1671741007911	1671741007960	KO	css((#grandTotal,None)).find.is($124.95), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Vintage Minature Car	1671741009966	1671741010018	OK	 
+REQUEST		Decrease Product Quantity in Cart - Vintage Minature Car Redirect 1	1671741010018	1671741010068	KO	css((#grandTotal,None)).find.is($99.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Vintage Minature Car	1671741012074	1671741012126	OK	 
+REQUEST		Decrease Product Quantity in Cart - Vintage Minature Car Redirect 1	1671741012127	1671741012176	KO	css((#grandTotal,None)).find.is($74.97), but actually found nothing
+REQUEST		Checkout	1671741014180	1671741014225	OK	 
+REQUEST		Checkout Redirect 1	1671741014227	1671741014273	OK	 
+USER	AceToysSimulation	END	1671741016283

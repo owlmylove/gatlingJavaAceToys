@@ -1,0 +1,26 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671758514996	 	3.8.4
+USER	AceToysSimulation	START	1671758516284
+REQUEST		Home Page	1671758516282	1671758516438	OK	 
+REQUEST		Our Story Page	1671758518548	1671758518602	OK	 
+REQUEST		Get in Touch Page	1671758520607	1671758520656	OK	 
+REQUEST		All Products	1671758522674	1671758522767	OK	 
+REQUEST		Load page 0 of Products - Category: All Products	1671758524794	1671758524896	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671758524906	1671758524963	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671758524970	1671758525024	OK	 
+REQUEST		Load Products Details Page - Product: Playing Cards	1671758527033	1671758527081	OK	 
+REQUEST		Add Cart Playing Cards	1671758529087	1671758529136	OK	 
+REQUEST		Login User	1671758531150	1671758531205	OK	 
+REQUEST		Login User Redirect 1	1671758531211	1671758531259	OK	 
+REQUEST		Cart View	1671758531264	1671758531308	OK	 
+REQUEST		Cart View Redirect 1	1671758531309	1671758531358	OK	 
+REQUEST		Increase Product Quantity in Cart - Playing Cards	1671758533363	1671758533415	OK	 
+REQUEST		Increase Product Quantity in Cart - Playing Cards Redirect 1	1671758533415	1671758533460	OK	 
+REQUEST		Increase Product Quantity in Cart - Playing Cards Redirect 2	1671758533461	1671758533511	KO	css((#grandTotal,None)).find.is($19.98), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Playing Cards	1671758535519	1671758535566	OK	 
+REQUEST		Increase Product Quantity in Cart - Playing Cards Redirect 1	1671758535567	1671758535611	OK	 
+REQUEST		Increase Product Quantity in Cart - Playing Cards Redirect 2	1671758535612	1671758535662	KO	css((#grandTotal,None)).find.is($29.97), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Playing Cards	1671758537667	1671758537720	OK	 
+REQUEST		Decrease Product Quantity in Cart - Playing Cards Redirect 1	1671758537721	1671758537769	KO	css((#grandTotal,None)).find.is($19.98), but actually found nothing
+REQUEST		Checkout	1671758539774	1671758539819	OK	 
+REQUEST		Checkout Redirect 1	1671758539820	1671758539869	OK	 
+USER	AceToysSimulation	END	1671758541879

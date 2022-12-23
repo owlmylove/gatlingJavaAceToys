@@ -1,0 +1,25 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671755623183	 	3.8.4
+USER	AceToysSimulation	START	1671755624595
+REQUEST		Home Page	1671755624592	1671755624755	OK	 
+REQUEST		Our Story Page	1671755626878	1671755626931	OK	 
+REQUEST		Get in Touch Page	1671755628940	1671755628993	OK	 
+REQUEST		All Products	1671755631012	1671755631120	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671755633149	1671755633187	KO	j.n.UnknownHostException: acetoys.ukcategory: nodename nor servname provided, or not known
+REQUEST		Load page 2 of Products - Category: All Products	1671755633196	1671755633196	KO	j.n.UnknownHostException: acetoys.ukcategory
+REQUEST		Load Products Details Page - Product: Assorted Building Blocks	1671755635200	1671755635263	OK	 
+REQUEST		Add Cart Assorted Building Blocks	1671755637271	1671755637322	OK	 
+REQUEST		Login User	1671755639334	1671755639386	OK	 
+REQUEST		Login User Redirect 1	1671755639396	1671755639446	OK	 
+REQUEST		Cart View	1671755639452	1671755639499	OK	 
+REQUEST		Cart View Redirect 1	1671755639500	1671755639551	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks	1671755641557	1671755641612	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 1	1671755641613	1671755641662	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 2	1671755641663	1671755641714	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks	1671755643721	1671755643772	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 1	1671755643773	1671755643820	OK	 
+REQUEST		Increase Product Quantity in Cart - Assorted Building Blocks Redirect 2	1671755643821	1671755643871	OK	 
+REQUEST		Decrease Product Quantity in Cart - Assorted Building Blocks	1671755645879	1671755645934	OK	 
+REQUEST		Decrease Product Quantity in Cart - Assorted Building Blocks Redirect 1	1671755645935	1671755645984	OK	 
+REQUEST		Checkout	1671755647990	1671755648045	OK	 
+REQUEST		Checkout Redirect 1	1671755648046	1671755648097	OK	 
+USER	AceToysSimulation	END	1671755650104

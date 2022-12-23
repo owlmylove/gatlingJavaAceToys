@@ -1,0 +1,25 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671757054754	 	3.8.4
+USER	AceToysSimulation	START	1671757055709
+REQUEST		Home Page	1671757055707	1671757055858	OK	 
+REQUEST		Our Story Page	1671757057989	1671757058043	OK	 
+REQUEST		Get in Touch Page	1671757060052	1671757060100	OK	 
+REQUEST		All Products	1671757062118	1671757062219	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671757064245	1671757064344	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671757064353	1671757064406	OK	 
+REQUEST		Load Products Details Page - Product: Poker Set	1671757066415	1671757066469	OK	 
+REQUEST		Add Cart Poker Set	1671757068477	1671757068532	OK	 
+REQUEST		Login User	1671757070543	1671757070591	OK	 
+REQUEST		Login User Redirect 1	1671757070595	1671757070642	OK	 
+REQUEST		Cart View	1671757070646	1671757070690	OK	 
+REQUEST		Cart View Redirect 1	1671757070691	1671757070738	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set	1671757072743	1671757072797	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 1	1671757072797	1671757072842	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 2	1671757072843	1671757072890	KO	css((#grandTotal,None)).find.is($127.98), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Poker Set	1671757074898	1671757074950	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 1	1671757074951	1671757074995	OK	 
+REQUEST		Increase Product Quantity in Cart - Poker Set Redirect 2	1671757074995	1671757075042	KO	css((#grandTotal,None)).find.is($191.97), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Poker Set	1671757077048	1671757077098	OK	 
+REQUEST		Decrease Product Quantity in Cart - Poker Set Redirect 1	1671757077099	1671757077147	KO	css((#grandTotal,None)).find.is($127.98), but actually found nothing
+REQUEST		Checkout	1671757079153	1671757079207	OK	 
+REQUEST		Checkout Redirect 1	1671757079208	1671757079256	OK	 
+USER	AceToysSimulation	END	1671757081265

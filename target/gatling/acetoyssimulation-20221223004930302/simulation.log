@@ -1,0 +1,24 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671756570302	 	3.8.4
+USER	AceToysSimulation	START	1671756571696
+REQUEST		Home Page	1671756571694	1671756571855	OK	 
+REQUEST		Our Story Page	1671756573968	1671756574020	OK	 
+REQUEST		Get in Touch Page	1671756576028	1671756576088	OK	 
+REQUEST		All Products	1671756578110	1671756578220	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671756580247	1671756580248	KO	j.n.UnknownHostException: acetoys.ukcategory: nodename nor servname provided, or not known
+REQUEST		Load Products Details Page - Product: VR Headset	1671756582255	1671756582308	OK	 
+REQUEST		Add Cart VR Headset	1671756584316	1671756584376	OK	 
+REQUEST		Login User	1671756586387	1671756586444	OK	 
+REQUEST		Login User Redirect 1	1671756586451	1671756586501	OK	 
+REQUEST		Cart View	1671756586507	1671756586554	OK	 
+REQUEST		Cart View Redirect 1	1671756586555	1671756586606	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset	1671756588613	1671756588669	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 1	1671756588670	1671756588717	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 2	1671756588718	1671756588770	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset	1671756590778	1671756590829	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 1	1671756590830	1671756590877	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 2	1671756590878	1671756590929	OK	 
+REQUEST		Decrease Product Quantity in Cart - VR Headset	1671756592935	1671756592991	OK	 
+REQUEST		Decrease Product Quantity in Cart - VR Headset Redirect 1	1671756592992	1671756593043	OK	 
+REQUEST		Checkout	1671756595049	1671756595106	OK	 
+REQUEST		Checkout Redirect 1	1671756595107	1671756595157	OK	 
+USER	AceToysSimulation	END	1671756597168

@@ -1,0 +1,35 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671738924095	test	3.8.4
+USER	AceToysSimulation	START	1671738925145
+REQUEST		Home Page	1671738925143	1671738925304	OK	 
+REQUEST		Our Story Page	1671738927418	1671738927471	OK	 
+REQUEST		Get in Touch Page	1671738929480	1671738929531	OK	 
+REQUEST		All Products	1671738931550	1671738931653	OK	 
+REQUEST		Babies Toys	1671738933674	1671738933777	OK	 
+REQUEST		Kids Toys	1671738935787	1671738935889	OK	 
+REQUEST		Grown-ups Toys	1671738937897	1671738937993	OK	 
+REQUEST		Load Products Details Page - Product: Furry Toys	1671738942013	1671738942064	OK	 
+REQUEST		Add Cart 11	1671738944071	1671738944121	OK	 
+REQUEST		Add Cart 11	1671738946124	1671738946173	OK	 
+REQUEST		Add Cart 11	1671738948176	1671738948226	OK	 
+REQUEST		Login	1671738950238	1671738950293	OK	 
+REQUEST		Login Redirect 1	1671738950299	1671738950349	OK	 
+REQUEST		Cart View	1671738950353	1671738950403	OK	 
+REQUEST		Cart View Redirect 1	1671738950405	1671738950455	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys	1671738952460	1671738952516	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 1	1671738952517	1671738952564	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 2	1671738952565	1671738952617	KO	css((#grandTotal,None)).find.is($155.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Furry Toys	1671738954624	1671738954680	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 1	1671738954681	1671738954729	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 2	1671738954730	1671738954780	KO	css((#grandTotal,None)).find.is($194.95000000000002), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Furry Toys	1671738956785	1671738956841	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 1	1671738956841	1671738956889	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 2	1671738956890	1671738956941	KO	css((#grandTotal,None)).find.is($233.94000000000003), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Furry Toys	1671738958946	1671738959001	OK	 
+REQUEST		Decrease Product Quantity in Cart - Furry Toys Redirect 1	1671738959002	1671738959054	KO	css((#grandTotal,None)).find.is($155.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Furry Toys	1671738961061	1671738961110	OK	 
+REQUEST		Decrease Product Quantity in Cart - Furry Toys Redirect 1	1671738961110	1671738961161	KO	css((#grandTotal,None)).find.is($77.97999999999999), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Furry Toys	1671738963166	1671738963215	OK	 
+REQUEST		Decrease Product Quantity in Cart - Furry Toys Redirect 1	1671738963216	1671738963267	KO	css((#grandTotal,None)).find.is($-1.4210854715202004E-14), but actually found nothing
+REQUEST		Checkout	1671738965273	1671738965328	OK	 
+REQUEST		Checkout Redirect 1	1671738965329	1671738965381	OK	 
+USER	AceToysSimulation	END	1671738967393

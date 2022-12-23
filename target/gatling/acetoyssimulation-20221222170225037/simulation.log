@@ -1,0 +1,35 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671728545037	test	3.8.4
+USER	AceToysSimulation	START	1671728546087
+REQUEST		Home Page	1671728546084	1671728546271	OK	 
+REQUEST		Our Story Page	1671728548378	1671728548447	OK	 
+REQUEST		Get in Touch Page	1671728550456	1671728550530	OK	 
+REQUEST		All Products	1671728552546	1671728552677	OK	 
+REQUEST		Babies Toys	1671728554696	1671728554811	OK	 
+REQUEST		Kids Toys	1671728556822	1671728556940	OK	 
+REQUEST		Grown-ups Toys	1671728558950	1671728559061	OK	 
+REQUEST		Load Products Details Page - Product: PS4 Controller	1671728563082	1671728563141	OK	 
+REQUEST		Add Cart 10	1671728565148	1671728565206	OK	 
+REQUEST		Add Cart 10	1671728567209	1671728567272	OK	 
+REQUEST		Add Cart 10	1671728569276	1671728569340	OK	 
+REQUEST		Login	1671728571351	1671728571423	OK	 
+REQUEST		Login Redirect 1	1671728571428	1671728571486	OK	 
+REQUEST		Cart View	1671728571489	1671728571544	OK	 
+REQUEST		Cart View Redirect 1	1671728571545	1671728571607	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller	1671728573613	1671728573687	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller Redirect 1	1671728573688	1671728573752	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller Redirect 2	1671728573753	1671728574053	KO	css((#grandTotal,None)).find.is($199.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - PS4 Controller	1671728576060	1671728576122	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller Redirect 1	1671728576122	1671728576178	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller Redirect 2	1671728576179	1671728576238	KO	css((#grandTotal,None)).find.is($249.95000000000002), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - PS4 Controller	1671728578243	1671728578306	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller Redirect 1	1671728578307	1671728578363	OK	 
+REQUEST		Increase Product Quantity in Cart - PS4 Controller Redirect 2	1671728578364	1671728578425	KO	css((#grandTotal,None)).find.is($299.94), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - PS4 Controller	1671728580430	1671728580486	OK	 
+REQUEST		Decrease Product Quantity in Cart - PS4 Controller Redirect 1	1671728580487	1671728580552	KO	css((#grandTotal,None)).find.is($199.95999999999998), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - PS4 Controller	1671728582557	1671728582717	OK	 
+REQUEST		Decrease Product Quantity in Cart - PS4 Controller Redirect 1	1671728582718	1671728582775	KO	css((#grandTotal,None)).find.is($99.97999999999996), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - PS4 Controller	1671728584781	1671728584851	OK	 
+REQUEST		Decrease Product Quantity in Cart - PS4 Controller Redirect 1	1671728584852	1671728584917	KO	css((#grandTotal,None)).find.is($-4.263256414560601E-14), but actually found nothing
+REQUEST		Checkout	1671728586922	1671728587232	OK	 
+REQUEST		Checkout Redirect 1	1671728587234	1671728587298	OK	 
+USER	AceToysSimulation	END	1671728589307

@@ -20,7 +20,7 @@ public class Customer {
                         Random rand = new Random();
                         int userId = rand.nextInt(3 - 1 + 1) + 1;
 
-                        HashMap<String,Object> hmap = new HashMap<String, Object>();
+                        HashMap<String, Object> hmap = new HashMap<String, Object>();
                         hmap.put("userId", "user" + userId);
                         hmap.put("password", "pass");
                         return hmap;
@@ -29,7 +29,7 @@ public class Customer {
     public static ChainBuilder login =
             feed(loginFeeder)
                     .exec(
-                    http("Login")
+                    http("Login User")
                             .post("/login")
                             .formParam("_csrf", "#{csrfToken}")
                             .formParam("username", "userId")
@@ -41,14 +41,12 @@ public class Customer {
      /*              .exec(
                             session -> {
                                 System.out.println(session);
-                          //      System.out.println("csrfToken after login is" + " " + session.getString("csrfTokenAfterLogin"));
+                                System.out.println("csrfToken after login is" + " " + session.getString("csrfTokenAfterLogin"));
                                 System.out.println("username" + " " + session.getString("userId"));
                                 return  session;
                             }
                    )
      */
-
-
 
     public static ChainBuilder logout =
             randomSwitch().on(

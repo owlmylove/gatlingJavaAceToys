@@ -22,11 +22,10 @@ public class Product {
 
     public static ChainBuilder addProductToCart =
             exec(increaseItemsInBasketForSession)
-                    .exec(increaseSessionBasketTotal)
                     .exec(
-                    http("Add Cart #{id}")
+                    http("Add Cart #{name}")
                             .get("/cart/add/#{id}")
                             .check(substring("You have <span>#{itemsInBasket}</span> products in your Basket"))
-            );
+            ).exec(increaseSessionBasketTotal);
 
 }

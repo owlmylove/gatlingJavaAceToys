@@ -1,0 +1,37 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671737238616	test	3.8.4
+USER	AceToysSimulation	START	1671737240001
+REQUEST		Home Page	1671737239998	1671737240152	OK	 
+REQUEST		Our Story Page	1671737242263	1671737242311	OK	 
+REQUEST		Get in Touch Page	1671737244320	1671737244370	OK	 
+REQUEST		All Products	1671737246384	1671737246479	OK	 
+REQUEST		Babies Toys	1671737248506	1671737248602	OK	 
+REQUEST		Kids Toys	1671737250620	1671737250714	OK	 
+REQUEST		Grown-ups Toys	1671737252725	1671737252826	OK	 
+REQUEST		Load Products Details Page - Product: VR Headset	1671737256845	1671737256895	OK	 
+REQUEST		Add Cart 13	1671737258903	1671737258948	OK	 
+REQUEST		Add Cart 13	1671737260952	1671737261000	OK	 
+REQUEST		Add Cart 13	1671737263003	1671737263050	OK	 
+REQUEST		Login	1671737265060	1671737265109	OK	 
+REQUEST		Login Redirect 1	1671737265116	1671737265163	OK	 
+REQUEST		Cart View	1671737265168	1671737265211	OK	 
+REQUEST		Cart View Redirect 1	1671737265212	1671737265261	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset	1671737267265	1671737267317	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 1	1671737267318	1671737267363	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 2	1671737267364	1671737267412	KO	css((#grandTotal,None)).find.is($1199.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - VR Headset	1671737269418	1671737269464	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 1	1671737269465	1671737269509	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 2	1671737269510	1671737269555	KO	css((#grandTotal,None)).find.is($1499.95), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - VR Headset	1671737271559	1671737271606	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 1	1671737271606	1671737271651	OK	 
+REQUEST		Increase Product Quantity in Cart - VR Headset Redirect 2	1671737271652	1671737271700	KO	css((#grandTotal,None)).find.is($1799.94), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - VR Headset	1671737273704	1671737273757	OK	 
+REQUEST		Decrease Product Quantity in Cart - VR Headset Redirect 1	1671737273757	1671737273805	KO	css((#grandTotal,None)).find.is($1199.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - VR Headset	1671737275812	1671737275860	OK	 
+REQUEST		Decrease Product Quantity in Cart - VR Headset Redirect 1	1671737275861	1671737275908	KO	css((#grandTotal,None)).find.is($599.98), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - VR Headset	1671737277914	1671737277959	OK	 
+REQUEST		Decrease Product Quantity in Cart - VR Headset Redirect 1	1671737277960	1671737278007	KO	css((#grandTotal,None)).find.is($0.0), but actually found nothing
+REQUEST		Checkout	1671737280012	1671737280058	OK	 
+REQUEST		Checkout Redirect 1	1671737280059	1671737280109	OK	 
+REQUEST		Logout	1671737282114	1671737282165	OK	 
+REQUEST		Logout Redirect 1	1671737282167	1671737282215	OK	 
+USER	AceToysSimulation	END	1671737282222

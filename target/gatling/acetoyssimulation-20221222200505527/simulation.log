@@ -1,0 +1,35 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671739505527	test	3.8.4
+USER	AceToysSimulation	START	1671739506949
+REQUEST		Home Page	1671739506947	1671739507100	OK	 
+REQUEST		Our Story Page	1671739509232	1671739509286	OK	 
+REQUEST		Get in Touch Page	1671739511295	1671739511350	OK	 
+REQUEST		All Products	1671739513370	1671739513463	OK	 
+REQUEST		Babies Toys	1671739515481	1671739515574	OK	 
+REQUEST		Kids Toys	1671739517586	1671739517676	OK	 
+REQUEST		Grown-ups Toys	1671739519687	1671739519780	OK	 
+REQUEST		Load Products Details Page - Product: Darts Board	1671739523801	1671739523855	OK	 
+REQUEST		Add Cart 19	1671739525861	1671739525915	OK	 
+REQUEST		Add Cart 19	1671739527919	1671739527980	OK	 
+REQUEST		Add Cart 19	1671739529984	1671739530038	OK	 
+REQUEST		Login	1671739532051	1671739532098	OK	 
+REQUEST		Login Redirect 1	1671739532103	1671739532150	OK	 
+REQUEST		Cart View	1671739532155	1671739532202	OK	 
+REQUEST		Cart View Redirect 1	1671739532203	1671739532253	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board	1671739534261	1671739534307	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board Redirect 1	1671739534308	1671739534352	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board Redirect 2	1671739534353	1671739534402	KO	css((#grandTotal,None)).find.is($359.96), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Darts Board	1671739536409	1671739536462	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board Redirect 1	1671739536463	1671739536508	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board Redirect 2	1671739536508	1671739536555	KO	css((#grandTotal,None)).find.is($449.95), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Darts Board	1671739538561	1671739538607	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board Redirect 1	1671739538608	1671739538652	OK	 
+REQUEST		Increase Product Quantity in Cart - Darts Board Redirect 2	1671739538653	1671739538700	KO	css((#grandTotal,None)).find.is($539.94), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Darts Board	1671739540726	1671739540772	OK	 
+REQUEST		Decrease Product Quantity in Cart - Darts Board Redirect 1	1671739540772	1671739540822	KO	css((#grandTotal,None)).find.is($449.95), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Darts Board	1671739542829	1671739542875	OK	 
+REQUEST		Decrease Product Quantity in Cart - Darts Board Redirect 1	1671739542876	1671739542923	KO	css((#grandTotal,None)).find.is($359.96), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Darts Board	1671739544929	1671739544983	OK	 
+REQUEST		Decrease Product Quantity in Cart - Darts Board Redirect 1	1671739544983	1671739545032	KO	css((#grandTotal,None)).find.is($269.97), but actually found nothing
+REQUEST		Checkout	1671739547036	1671739547088	OK	 
+REQUEST		Checkout Redirect 1	1671739547088	1671739547136	OK	 
+USER	AceToysSimulation	END	1671739549146

@@ -1,0 +1,26 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671759440401	 	3.8.4
+USER	AceToysSimulation	START	1671759441385
+REQUEST		Home Page	1671759441383	1671759441548	OK	 
+REQUEST		Our Story Page	1671759443657	1671759443717	OK	 
+REQUEST		Get in Touch Page	1671759445726	1671759445784	OK	 
+REQUEST		All Products	1671759447802	1671759447907	OK	 
+REQUEST		Load page 0 of Products - Category: All Products	1671759449934	1671759450039	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671759450049	1671759450103	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671759450110	1671759450166	OK	 
+REQUEST		Load Products Details Page - Product: Xbox Controller	1671759452174	1671759452224	OK	 
+REQUEST		Add Cart Xbox Controller	1671759454232	1671759454289	OK	 
+REQUEST		Login User	1671759456302	1671759456353	OK	 
+REQUEST		Login User Redirect 1	1671759456362	1671759456412	OK	 
+REQUEST		Cart View	1671759456416	1671759456463	OK	 
+REQUEST		Cart View Redirect 1	1671759456464	1671759456513	OK	 
+REQUEST		Increase Product Quantity in Cart - Xbox Controller	1671759458519	1671759458567	OK	 
+REQUEST		Increase Product Quantity in Cart - Xbox Controller Redirect 1	1671759458568	1671759458615	OK	 
+REQUEST		Increase Product Quantity in Cart - Xbox Controller Redirect 2	1671759458616	1671759458666	KO	css((#grandTotal,None)).find.is($99.98), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Xbox Controller	1671759460672	1671759460728	OK	 
+REQUEST		Increase Product Quantity in Cart - Xbox Controller Redirect 1	1671759460729	1671759460776	OK	 
+REQUEST		Increase Product Quantity in Cart - Xbox Controller Redirect 2	1671759460776	1671759460826	KO	css((#grandTotal,None)).find.is($149.97), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Xbox Controller	1671759462832	1671759462880	OK	 
+REQUEST		Decrease Product Quantity in Cart - Xbox Controller Redirect 1	1671759462881	1671759462931	KO	css((#grandTotal,None)).find.is($99.98), but actually found nothing
+REQUEST		Checkout	1671759464936	1671759464984	OK	 
+REQUEST		Checkout Redirect 1	1671759464984	1671759465035	OK	 
+USER	AceToysSimulation	END	1671759467042

@@ -1,0 +1,27 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671757359012	 	3.8.4
+USER	AceToysSimulation	START	1671757360261
+REQUEST		Home Page	1671757360259	1671757360432	OK	 
+REQUEST		Our Story Page	1671757362546	1671757362597	OK	 
+REQUEST		Get in Touch Page	1671757364608	1671757364664	OK	 
+REQUEST		All Products	1671757366680	1671757366779	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671757368803	1671757368912	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671757368923	1671757368975	OK	 
+REQUEST		Load Products Details Page - Product: Furry Toys	1671757370982	1671757371039	OK	 
+REQUEST		Add Cart Furry Toys	1671757373046	1671757373103	OK	 
+REQUEST		Login User	1671757375121	1671757375181	OK	 
+REQUEST		Login User Redirect 1	1671757375187	1671757375238	OK	 
+REQUEST		Cart View	1671757375242	1671757375291	OK	 
+REQUEST		Cart View Redirect 1	1671757375292	1671757375343	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys	1671757377348	1671757377403	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 1	1671757377404	1671757377452	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 2	1671757377453	1671757377504	KO	css((#grandTotal,None)).find.is($0.0), but actually found nothing
+REQUEST		Increase Product Quantity in Cart - Furry Toys	1671757379512	1671757379569	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 1	1671757379570	1671757379618	OK	 
+REQUEST		Increase Product Quantity in Cart - Furry Toys Redirect 2	1671757379618	1671757379670	KO	css((#grandTotal,None)).find.is($0.0), but actually found nothing
+REQUEST		Decrease Product Quantity in Cart - Furry Toys	1671757381676	1671757381727	OK	 
+REQUEST		Decrease Product Quantity in Cart - Furry Toys Redirect 1	1671757381727	1671757381778	KO	css((#grandTotal,None)).find.is($0.0), but actually found nothing
+REQUEST		Checkout	1671757383783	1671757383834	OK	 
+REQUEST		Checkout Redirect 1	1671757383835	1671757383885	OK	 
+REQUEST		Logout	1671757385892	1671757385947	OK	 
+REQUEST		Logout Redirect 1	1671757385948	1671757385999	OK	 
+USER	AceToysSimulation	END	1671757386006
