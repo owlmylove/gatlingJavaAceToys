@@ -1,0 +1,17 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1672180422975	test	3.8.4
+USER	AceToysSimulation	START	1672180424366
+REQUEST		Home Page	1672180424363	1672180424518	OK	 
+REQUEST		Our Story Page	1672180427634	1672180427689	OK	 
+REQUEST		Get in Touch Page	1672180428696	1672180428762	OK	 
+REQUEST		All Products	1672180429925	1672180430022	OK	 
+REQUEST		Load page 0 of Products - Category: All Products	1672180431049	1672180431147	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1672180431157	1672180431208	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1672180431213	1672180431266	OK	 
+REQUEST		Load Products Details Page - Product: Fake Donuts	1672180433890	1672180433939	OK	 
+REQUEST		Babies Toys	1672180433945	1672180434039	OK	 
+REQUEST		Load page 0 of Products - Category: Babies Toys	1672180435046	1672180435140	KO	css((.page-item.active,None)).find.is(1), but actually found nothing
+REQUEST		Load Products Details Page - Product: VR Headset	1672180437071	1672180437120	OK	 
+REQUEST		Kids Toys	1672180437124	1672180437218	OK	 
+REQUEST		Load page 0 of Products - Category: Kids Toys	1672180438225	1672180438324	KO	css((.page-item.active,None)).find.is(1), but actually found nothing
+REQUEST		Load Products Details Page - Product: Coloured Building Blocks	1672180440332	1672180440382	OK	 
+USER	AceToysSimulation	END	1672180440389

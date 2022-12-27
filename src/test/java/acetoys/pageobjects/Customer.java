@@ -32,8 +32,8 @@ public class Customer {
                     http("Login User")
                             .post("/login")
                             .formParam("_csrf", "#{csrfToken}")
-                            .formParam("username", "userId")
-                            .formParam("password", "password")
+                            .formParam("username", "#{userId}")
+                            .formParam("password", "#{password}")
                             .check(css("#_csrf", "content").saveAs("csrfTokenAfterLogin"))
             )
                     .exec(session -> session.set("customerLoggedIn", true));

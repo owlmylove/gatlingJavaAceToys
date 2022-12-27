@@ -1,0 +1,23 @@
+RUN	acetoys.AceToysSimulation	acetoyssimulation	1671978299251	test	3.8.4
+USER	AceToysSimulation	START	1671978301606
+REQUEST		Home Page	1671978301604	1671978301761	OK	 
+REQUEST		Our Story Page	1671978303872	1671978303928	OK	 
+REQUEST		Get in Touch Page	1671978305934	1671978305986	OK	 
+REQUEST		All Products	1671978308001	1671978308105	OK	 
+REQUEST		Load page 0 of Products - Category: All Products	1671978310135	1671978310236	OK	 
+REQUEST		Load page 1 of Products - Category: All Products	1671978310245	1671978310300	OK	 
+REQUEST		Load page 2 of Products - Category: All Products	1671978310308	1671978310357	OK	 
+REQUEST		Load Products Details Page - Product: US Style Basketball	1671978312364	1671978312417	OK	 
+REQUEST		Add Cart US Style Basketball	1671978314426	1671978314480	OK	 
+REQUEST		Login User	1671978316491	1671978316542	OK	 
+REQUEST		Login User Redirect 1	1671978316552	1671978316603	OK	 
+REQUEST		Cart View	1671978316606	1671978316656	OK	 
+REQUEST		Increase Product Quantity in Cart - US Style Basketball	1671978318661	1671978318718	OK	 
+REQUEST		Increase Product Quantity in Cart - US Style Basketball Redirect 1	1671978318719	1671978318770	OK	 
+REQUEST		Increase Product Quantity in Cart - US Style Basketball	1671978320776	1671978320832	OK	 
+REQUEST		Increase Product Quantity in Cart - US Style Basketball Redirect 1	1671978320833	1671978320883	OK	 
+REQUEST		Decrease Product Quantity in Cart - US Style Basketball	1671978322891	1671978322947	OK	 
+REQUEST		Decrease Product Quantity in Cart - US Style Basketball Redirect 1	1671978322948	1671978322997	OK	 
+REQUEST		Checkout	1671978325003	1671978325058	OK	 
+REQUEST		Checkout Redirect 1	1671978325059	1671978325110	OK	 
+USER	AceToysSimulation	END	1671978327121

@@ -22,7 +22,7 @@ public class Cart {
                     .exec(
                     http("Increase Product Quantity in Cart - #{name}")
                             .get("/cart/add/#{id}?cartPage=true")
-              //              .check(css("#grandTotal").isEL("$#{basketTotal}"))
+                            .check(css("#grandTotal").isEL("$#{basketTotal}"))
 
                     );
 
@@ -32,7 +32,7 @@ public class Cart {
                     .exec(
                     http("Decrease Product Quantity in Cart - #{name}")
                             .get("/cart/subtract/#{id}")
-               //             .check(css("#grandTotal").isEL("$#{basketTotal}"))
+                            .check(css("#grandTotal").isEL("$#{basketTotal}"))
 
             );
 
