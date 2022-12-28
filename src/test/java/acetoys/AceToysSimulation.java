@@ -1,8 +1,6 @@
 package acetoys;
 
-import acetoys.pageobjects.*;
-import acetoys.session.UserSession;
-import acetoys.simulations.UserJourney;
+import acetoys.simulations.TestScenario;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
@@ -21,13 +19,8 @@ public class AceToysSimulation extends Simulation {
           .acceptLanguageHeader("ru-RU,ru;q=0.9,en;q=0.8");
 
 
-  private ScenarioBuilder scn = scenario("AceToysSimulation")
-          .exec(UserJourney.browseStore)
-          .exec(UserJourney.abandonBasket)
-          .exec(UserJourney.completePurchase);
-
   {
-    setUp(scn.injectOpen(atOnceUsers(1))
-    ).protocols(httpProtocol);
+    setUp(TestScenario.highPurchaseLoadTest
+            .injectOpen(atOnceUsers(10))).protocols(httpProtocol);
   }
 }
