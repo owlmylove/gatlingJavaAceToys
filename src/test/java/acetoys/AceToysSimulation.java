@@ -11,6 +11,8 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 
 public class AceToysSimulation extends Simulation {
 
+  private static final String TEST_TYPE = System.getProperty("TEST_TYPE", "INSTANT_USERS");
+
   private static final String DOMAIN = "acetoys.uk";
 
   private HttpProtocolBuilder httpProtocol = http
@@ -21,7 +23,18 @@ public class AceToysSimulation extends Simulation {
 
 
   {
+    if (TEST_TYPE == "INSTANT-USERS") {
+      setUp(TestSetUps.instantUsers).protocols(httpProtocol);
+    } else if (TEST_TYPE == "RAMP_USERS") {
+      setUp(TestSetUps.rampUsers).protocols(httpProtocol);
+    } else if (TEST_TYPE == "COMPLEX_INJECTION") {
+      setUp(TestSetUps.complexInjection).protocols(httpProtocol);
+    } else if (TEST_TYPE == "CLOSED_MODULE") {
+      setUp(TestSetUps.closedModel).protocols(httpProtocol);
+    } else (TEST_TYPE == "CLOSED_MODULE") {
     setUp(TestSetUps.instantUsers).protocols(httpProtocol);
+    }
+
 //    setUp(TestSetUps.rampUsers).protocols(httpProtocol);
 //    setUp(TestSetUps.complexInjection).protocols(httpProtocol);
 //    setUp(TestSetUps.closedModel).protocols(httpProtocol);
