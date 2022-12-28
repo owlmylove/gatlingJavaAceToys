@@ -1,6 +1,7 @@
 package acetoys;
 
 import acetoys.simulations.TestScenario;
+import acetoys.simulations.TestSetUps;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
@@ -20,7 +21,9 @@ public class AceToysSimulation extends Simulation {
 
 
   {
-    setUp(TestScenario.highPurchaseLoadTest
-            .injectOpen(atOnceUsers(10))).protocols(httpProtocol);
+    setUp(TestSetUps.instantUsers).protocols(httpProtocol);
+//    setUp(TestSetUps.rampUsers).protocols(httpProtocol);
+//    setUp(TestSetUps.complexInjection).protocols(httpProtocol);
+//    setUp(TestSetUps.closedModel).protocols(httpProtocol);
   }
 }
