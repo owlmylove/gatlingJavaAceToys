@@ -1,6 +1,5 @@
 package acetoys;
 
-import acetoys.simulations.TestScenario;
 import acetoys.simulations.TestSetUps;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
@@ -11,12 +10,12 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 
 public class AceToysSimulation extends Simulation {
 
-//  private static final String TEST_TYPE = System.getProperty("TEST_TYPE", "INSTANT_USERS");
+// private static final String TEST_TYPE = System.getProperty("TEST_TYPE", "INSTANT_USERS");
   private static final String TEST_TYPE = System.getenv("TEST_TYPE");
 
   private static final String DOMAIN = "acetoys.uk";
 
-  private HttpProtocolBuilder httpProtocol = http
+  private  HttpProtocolBuilder httpProtocol = http
           .baseUrl("https://" + DOMAIN)
           .inferHtmlResources(AllowList(), DenyList(".*\\.js", ".*\\.css", ".*\\.gif", ".*\\.jpeg", ".*\\.jpg", ".*\\.ico", ".*\\.woff", ".*\\.woff2", ".*\\.(t|o)tf", ".*\\.png", ".*detectportal\\.firefox\\.com.*"))
           .acceptEncodingHeader("gzip, deflate")
@@ -24,22 +23,23 @@ public class AceToysSimulation extends Simulation {
 
 
   {
-    if (TEST_TYPE == "INSTANT_USERS") {
-      setUp(TestSetUps.instantUsers).protocols(httpProtocol);
-    } else if (TEST_TYPE == "RAMP_USERS") {
+    if (TEST_TYPE.equals("INSTANT_USERS")) {
+      setUp(TestSetUps.instantUsers).protocols(httpProtocol)
+              .assertions(
+                      global().responseTime().mean().lt(3),
+                      global().successfulRequests().percent().gt(99.0),
+                      forAll().responseTime().max().lt(5)
+              );
+    } else if (TEST_TYPE.equals("RAMP_USERS")) {
       setUp(TestSetUps.rampUsers).protocols(httpProtocol);
-    } else if (TEST_TYPE == "COMPLEX_INJECTION") {
+    } else if (TEST_TYPE.equals("COMPLEX_INJECTION")) {
       setUp(TestSetUps.complexInjection).protocols(httpProtocol);
-    } else if (TEST_TYPE == "CLOSED_MODULE") {
+    } else if (TEST_TYPE.equals("CLOSED_MODEL")) {
       setUp(TestSetUps.closedModel).protocols(httpProtocol);
     } else {
-    setUp(TestSetUps.instantUsers).protocols(httpProtocol);
-  }
-
-/*   setUp(TestSetUps.rampUsers).protocols(httpProtocol);
-    setUp(TestSetUps.complexInjection).protocols(httpProtocol);
-   setUp(TestSetUps.closedModel).protocols(httpProtocol);
-*/
+      setUp(TestSetUps.instantUsers).protocols(httpProtocol);
+    }
+//   setUp(TestSetUps.rampUsers).protocols(httpProtocol);
 
     /*
     to run locally go tp folder
