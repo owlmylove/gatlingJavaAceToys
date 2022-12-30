@@ -1,5 +1,6 @@
 Advanced Gatling for Stress Testing Web Applications - Java 
 ============================================
 
-Learning
-Web Project Ace Toys
+Project Ace Toys
+
+If you like to run the project locally then uncomment system parameters 
